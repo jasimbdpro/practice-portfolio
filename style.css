@@ -83,6 +83,9 @@ h2 {
 
 .middle {
     display: flex;
+    background-image: url(images/half\ peremeter.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .middle div img {
