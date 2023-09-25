@@ -45,9 +45,10 @@ h1#heading-text {
     text-decoration: none;
     background-color: rgb(0, 102, 255);
     color: white;
-    padding: 8px 10px;
-    margin-top: 20px;
+    padding: 10px 15px;
+    margin-top: 10px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 h1 {
@@ -79,3 +80,21 @@ h2 {
     line-height: 1.5;
     font-size: .9em;
 }
+
+.middle {
+    display: flex;
+}
+
+.middle div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.linkedbutton2 {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
